@@ -25,6 +25,7 @@ main {
     flex-direction: column;
     font-size: var(--fonte-mini);
     font-weight: 900;
+    width: 300px;
 }
 
 .login-input input {
