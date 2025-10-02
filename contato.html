@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./image/diamond-ico.png" type="image/x-icon">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./contato.css">
     <script src="https://kit.fontawesome.com/5e45ee013f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,53 +29,51 @@
         <nav>
             <ul class="nav-list">
                 <li><a href="./login.html"><i class="fa-solid fa-user nav-icon"></i>Login</a></li>
-                <li><a href="./contato.html"><i class="fa-solid fa-envelope nav-icon"></i>Contato</a></li>
+                <li><a href="contato.html"><i class="fa-solid fa-envelope nav-icon"></i>Contato</a></li>
                 <li><a href="#"><i class="fa-solid fa-cart-shopping nav-icon"></i>Carrinho</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <form class="login">
-            <h2 class="login-titulo">Login:</h2>
+        <h2 class="titulo-contatos">Nossos Contatos</h2>
 
-            <div class="login-input">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="" placeholder="email@example.com.br" required>
-            </div>
 
-            <div class="login-input">
-                <label for="password">Senha</label>
-                <input type="password" name="password" id="" required>
-            </div>
-            <input type="submit" value="Entrar" class="login-btn">
-        </form>
-
-        <form class="login">
-            <h2 class="login-titulo">Cadastre-se:</h2>
-
-            <div class="login-input">
+        <form action="" class="contato">
+            <div class="contato-input">
                 <label for="nome">Nome completo</label>
                 <input type="text" name="nome" id="" required>
             </div>
 
-            <div class="login-input">
+            <div class="contato-input">
                 <label for="email">Email</label>
                 <input type="email" name="email" id="" placeholder="email@example.com.br" required>
             </div>
 
-            <div class="login-input">
+            <div class="contato-input">
                 <label for="tel">Telefone</label>
-                <input type="text" name="tel" onkeyup="formatarTelefone(this)" id="" placeholder="(11)98765-4321 " maxlength="11" required>
+                <input type="tel" name="tel" id="" onkeyup="formatarTelefone(this)" placeholder="(11)98765-4321"
+                    maxlength="11" required>
             </div>
 
-            <div class="login-input">
-                <label for="password">Senha</label>
-                <input type="password" name="password" id="" required>
-            </div>
+            <textarea name="" id="" class="contato-text" placeholder="Digite o motivo do seu contato"
+                required></textarea>
 
-            <input type="submit" value="Cadastrar" class="login-btn">
+            <input type="submit" value="Enviar" class="contato-btn">
         </form>
+
+        <section class="midia">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.573885997724!2d-46.6396541!3d-23.6554266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ad06532e123%3A0x5d84c4d308c230b!2sR.%20das%20J%C3%B3ias%2C%20123%20-%20Vila%20do%20Encontro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004323-120!5e0!3m2!1spt-BR!2sbr!4v1759361300118!5m2!1spt-BR!2sbr"
+                class="midia-mapa"></iframe>
+
+            <iframe
+                src="https://www.youtube.com/embed/QaNrBVqmsNc?si=1nu2lTVwlU2X3_4q&amp;controls=0&autoplay=1&mute=1&loop=1&disablekb=1&playlist=QaNrBVqmsNc"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="midia-video"></iframe>
+        </section>
+
 
     </main>
 
@@ -134,7 +132,7 @@
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
 
-        <!-- Script para configurar o telefone -->
+    <!-- Script para configurar o telefone -->
     <script>
         function formatarTelefone(input) {
             // Remove todos os caracteres não numéricos
