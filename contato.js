@@ -39,10 +39,10 @@ form.addEventListener("submit", (e) => {
             // Salva o array atualizado de volta no localStorage em formato JSON stringificado
             localStorage.setItem(chave, JSON.stringify(contato));
             console.log(`Objeto adicionado na lista '${chave}'.`);
-            textForm.textContent = "";
             textNome.textContent = "";
             textEmail.textContent = "";
             textTel.textContent = "";
+            textForm.textContent = "Mensagem enviada com sucesso! Obrigado por entrar em contato conosco.";
         }
     } else {
         console.log("Requisição não atendida");

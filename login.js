@@ -24,13 +24,23 @@ form.addEventListener("submit", (e) => {
     validatorEmail(email.value) === true &&
     validatorPassword(password.value) === true
   ) {
-    console.log(email.value);
-    console.log(password.value);
-    textForm.textContent = "";
-    textEmail.textContent = "";
-    textPassword.textContent = "";
-  } else {
-    console.log("Requisição não atendida");
+    //verifica se o email e senha existem no localStorage na lista "Clientes"
+    let clientes = localStorage.getItem("Clientes");
+    if (clientes) {
+      clientes = JSON.parse(clientes);
+      const usuarioEncontrado = clientes.find(
+        (cliente) => cliente.Email === email.value && cliente.Senha === password.value
+      );
+      if (usuarioEncontrado) {
+        textForm.textContent = "Login bem-sucedido!";
+        textEmail.textContent = "";
+        textPassword.textContent = "";
+      } else {
+        textForm.textContent = "Email ou senha incorretos!";
+      }
+    } else {
+      textForm.textContent = "Nenhum usuário cadastrado!";
+    }
   }
 });
 
@@ -75,7 +85,7 @@ form2.addEventListener("submit", (e) => {
     textEmail2.textContent = "";
     textTel.textContent = "";
     textPassword2.textContent = "";
-    textForm2.textContent = "";
+    textForm2.textContent = "Cadastro realizado com sucesso!";
   } else {
     console.log("Requisição não atendida");
   }
