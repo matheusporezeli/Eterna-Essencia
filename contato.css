@@ -51,7 +51,7 @@ main {
     font-weight: 700;
     width: 100%;
     padding: 5px;
-    border-color: var(--rose-hover);
+    border: none;
     background-color: var(--rose);
     cursor: pointer;
 }
