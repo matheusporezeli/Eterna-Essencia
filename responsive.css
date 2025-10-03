@@ -58,16 +58,6 @@
         width: 70%;
     }
 
-    /*Contato*/
-    .contato,
-    .midia-mapa {
-        width: 70vw;
-    }
-
-    .midia-video {
-        display: none;
-    }
-
     /*Footer*/
 
     footer {
@@ -130,14 +120,7 @@
     }
 
     .midia {
-        justify-content: space-between;
-        padding: 50px 0;
-    }
-
-    .midia-mapa,
-    .midia-video {
-        width: 320px;
-        height: 180px;
+        padding: 25px;
     }
 
     /*Footer*/

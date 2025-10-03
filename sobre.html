@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,9 +7,9 @@
     <title>Eterna Essência</title>
     <link rel="shortcut icon" href="./image/diamond-ico.png" type="image/x-icon">
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./variaveis.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./contato.css">
+    <link rel="stylesheet" href="./variaveis.css">
+    <link rel="stylesheet" href="./sobre.css">
     <link rel="stylesheet" href="./responsive.css">
     <script src="https://kit.fontawesome.com/5e45ee013f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,51 +31,51 @@
         <nav>
             <ul class="nav-list">
                 <li><a href="./login.html"><i class="fa-solid fa-user nav-icon"></i>Login</a></li>
-                <li><a href="contato.html"><i class="fa-solid fa-envelope nav-icon"></i>Contato</a></li>
+                <li><a href="./contato.html"><i class="fa-solid fa-envelope nav-icon"></i>Contato</a></li>
                 <li><a href="#"><i class="fa-solid fa-cart-shopping nav-icon"></i>Carrinho</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2 class="titulo-contatos">Deixe sua mensagem</h2>
+        <section class="sobre">
+            <h2 class="titulo-produtos">Nossa História</h2>
+            <div class="sobre-descricao">
+                <p>
+                    A <span>Eterna Essência</span> nasceu do desejo de transformar emoções em joias,
+                    criando peças que não apenas embelezam, mas também carregam significados profundos. Desde o início,
+                    nossa missão sempre foi mais do que trabalhar com metais preciosos e pedras raras: buscamos traduzir
+                    histórias, sentimentos e memórias em detalhes únicos que refletem a essência de cada pessoa.
+                </p>
+    
+                <p>
+                    Com dedicação artesanal e inspiração em momentos especiais, desenvolvemos joias que acompanham
+                    conquistas, amores e celebrações. Cada peça é cuidadosamente pensada para ser eterna, preservando não só
+                    a beleza, mas também os valores e lembranças que a tornam única.
+                </p>
+    
+                <p>
+                    Nosso slogan, "Onde cada detalhe reflete a sua essência. Joias que eternizam momentos únicos", guia
+                    nossa forma de criar e atender. Mais do que acessórios, nossas joias são testemunhas de capítulos
+                    inesquecíveis da vida de quem as escolhe.
+                </p>
 
-
-        <form id="contato" action="" class="contato">
-            <div class="contato-input">
-                <label for="nome">Nome completo</label>
-                <input type="text" name="nome" id="nome" placeholder="Seu nome completo">
-                <small id="textNome"></small>
+                <p>
+                    Na Eterna Essência, acreditamos que cada detalhe conta — e é nele que reside o verdadeiro brilho.
+                </p>
+    
             </div>
-
-            <div class="contato-input">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="email@example.com.br">
-                <small id="textEmail"></small>
-            </div>
-
-            <div class="contato-input">
-                <label for="tel">Telefone</label>
-                <input type="text" name="tel" onkeyup="formatarTelefone(this)" id="telefone"
-                    placeholder="(XX) XXXXX-XXXX" maxlength="15">
-                <small id="textTel"></small>
-            </div>
-
-            <div class="contato-input">
-                <label for="text">Mensagem</label>
-                <textarea name="" id="text" class="contato-text" placeholder="Digite o motivo do seu contato"></textarea>
-            </div>
-
-            <input type="submit" value="Enviar" class="contato-btn">
-            <small id="textForm"></small>
-        </form>
+            
+        </section>
 
         <section class="midia">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.573885997724!2d-46.6396541!3d-23.6554266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ad06532e123%3A0x5d84c4d308c230b!2sR.%20das%20J%C3%B3ias%2C%20123%20-%20Vila%20do%20Encontro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004323-120!5e0!3m2!1spt-BR!2sbr!4v1759361300118!5m2!1spt-BR!2sbr"
-                class="midia-mapa"></iframe>
+                src="https://www.youtube.com/embed/QaNrBVqmsNc?si=1nu2lTVwlU2X3_4q&amp;controls=0&autoplay=1&mute=1&loop=1&disablekb=1&rel=0&playlist=QaNrBVqmsNc"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; rel"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="midia-video">
+            </iframe>
         </section>
-
 
     </main>
 
@@ -132,8 +132,6 @@
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
-
-    <script src="./contato.js"></script>
 </body>
 
 </html>
