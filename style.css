@@ -176,7 +176,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .opton-3 {
-    background-color: var(--rose);
+    background-color: var(--ouro-rose);
     opacity: 50%;
 }
 
@@ -243,3 +243,4 @@ footer {
     padding: 15px 0;
 
 }
+
