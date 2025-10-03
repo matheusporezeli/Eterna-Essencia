@@ -32,9 +32,16 @@ form.addEventListener("submit", (e) => {
         (cliente) => cliente.Email === email.value && cliente.Senha === password.value
       );
       if (usuarioEncontrado) {
-        textForm.textContent = "Login bem-sucedido!";
+        // Limpa os campos e mensagens de erro após o login
+        email.value = "";
+        password.value = "";
         textEmail.textContent = "";
         textPassword.textContent = "";
+        textForm.textContent = "Login bem-sucedido!";
+        //leva para a página index.html depois de 1 segundo
+        setTimeout(() => {
+          window.location.href = "./index.html";
+        }, 3000);
       } else {
         textForm.textContent = "Email ou senha incorretos!";
       }
@@ -81,6 +88,11 @@ form2.addEventListener("submit", (e) => {
       localStorage.setItem(chave, JSON.stringify(cliente));
       console.log(`Objeto adicionado na lista '${chave}'.`);
     }
+    // Limpa os campos e mensagens de erro após o cadastro
+    nome.value = "";
+    email2.value = "";
+    tel.value = "";
+    password2.value = "";
     textNome.textContent = "";
     textEmail2.textContent = "";
     textTel.textContent = "";

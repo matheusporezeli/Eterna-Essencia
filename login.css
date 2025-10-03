@@ -11,7 +11,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    border: solid 5px var(--ouro-antigo-hover);
+    border: solid 1px var(--rose);
     padding: 20px;
 }
 
@@ -37,12 +37,12 @@ main {
     font-weight: 700;
     width: 100%;
     padding: 5px;
-    border-color: var(--ouro-antigo-hover);
-    background-color: var(--ouro-antigo);
+    border-color: var(--rose-hover);
+    background-color: var(--rose);
     cursor: pointer;
 }
 
 .login-btn:hover {
     color: var(--branco);
-    background-color: var(--ouro-antigo-hover);
+    background-color: var(--rose-hover);
 }

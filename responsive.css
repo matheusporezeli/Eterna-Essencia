@@ -9,17 +9,20 @@
     }
 
     /*Header*/
+    header {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+    }
+
     .search {
         display: none;
     }
 
-    .titulo {
-        width: 50%;
-    }
-
     .nav-list {
         width: auto;
-        flex-direction: column;
         align-items: end;
         text-align: right;
     }
@@ -94,11 +97,16 @@
 
     /*Header*/
     header {
-        gap: 15px;
+        flex-direction: column;
+        align-items: center;
     }
 
     header h1 {
         text-align: center;
+    }
+
+    .search {
+        display: none;
     }
 
     .nav-list {

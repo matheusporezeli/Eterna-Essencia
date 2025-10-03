@@ -42,6 +42,11 @@ form.addEventListener("submit", (e) => {
             textNome.textContent = "";
             textEmail.textContent = "";
             textTel.textContent = "";
+            //limpa os campos do formulário
+            nome.value = "";
+            email.value = "";
+            tel.value = "";
+            text.value = "";
             textForm.textContent = "Mensagem enviada com sucesso! Obrigado por entrar em contato conosco.";
         }
     } else {
