@@ -10,7 +10,7 @@
 
     /*Header*/
     header {
-        position: relative;
+        position: sticky;
         flex-direction: column;
         align-items: center;
         padding: 15px;
