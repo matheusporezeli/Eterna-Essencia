@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eterna Essência</title>
+    <link rel="shortcut icon" href="./image/diamond-ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/variaveis.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <script src="https://kit.fontawesome.com/5e45ee013f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="search">
+            <input type="search" name="search" id="" class="search-ipt" placeholder="Buscar">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <h1 class="titulo"><a href="../index.html">Eterna Essência</a></h1>
+
+        <nav>
+            <ul class="nav-list">
+                <li><a href="../index.html"><i class="fa-solid fa-home nav-icon"></i>Home</a></li>
+                <li><a href="./login.html"><i class="fa-solid fa-user nav-icon"></i>Login</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping nav-icon"></i>Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="titulo-contatos">Deixe sua mensagem</h2>
+
+
+        <form id="contato" action="" class="contato">
+            <div class="contato-input">
+                <label for="nome">Nome completo</label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome completo">
+                <small id="textNome"></small>
+            </div>
+
+            <div class="contato-input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="email@example.com.br">
+                <small id="textEmail"></small>
+            </div>
+
+            <div class="contato-input">
+                <label for="tel">Telefone</label>
+                <input type="text" name="tel" onkeyup="formatarTelefone(this)" id="telefone"
+                    placeholder="(XX) XXXXX-XXXX" maxlength="15">
+                <small id="textTel"></small>
+            </div>
+
+            <div class="contato-input">
+                <label for="text">Mensagem</label>
+                <textarea name="" id="text" class="contato-text" placeholder="Digite o motivo do seu contato"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar" class="contato-btn">
+            <small id="textForm"></small>
+        </form>
+
+        <section class="midia">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.573885997724!2d-46.6396541!3d-23.6554266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ad06532e123%3A0x5d84c4d308c230b!2sR.%20das%20J%C3%B3ias%2C%20123%20-%20Vila%20do%20Encontro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004323-120!5e0!3m2!1spt-BR!2sbr!4v1759361300118!5m2!1spt-BR!2sbr"
+                class="midia-mapa"></iframe>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-itens">
+            <!-- Slogan -->
+            <div class="footer-topico">
+                <h2 class="titulo titulo-footer">Eterna Essência</h2>
+                <p>Onde cada detalhe reflete a sua essência. Joias que eternizam momentos únicos</p>
+            </div>
+
+            <!-- Contato -->
+            <div class="footer-topico">
+                <h3 class="topico-titulo">Contato</h3>
+                <p>Rua das Joias, 123 - São Paulo/SP</p>
+                <p>(11) 98765-4321</p>
+            </div>
+
+            <!-- Links úteis -->
+            <div class="footer-topico">
+                <h3 class="topico-titulo">Links úteis</h3>
+                <a href="./sobre.html" class="topico-links">Sobre nós</a>
+                <a href="#" class="topico-links">Coleções</a>
+                <a href="./contato.html" class="topico-links">Contato</a>
+            </div>
+
+            <!-- Redes sociais -->
+            <div class="footer-topico">
+                <h3 class="topico-titulo">Siga-nos</h3>
+                <a href="https://www.instagram.com/" class="topico-links" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>Instagram
+                </a>
+                <a href="https://www.facebook.com/" class="topico-links" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>Facebook
+                </a>
+                <a href="https://www.pinterest.com/" class="topico-links" target="_blank">
+                    <i class="fa-brands fa-square-pinterest"></i>Pinterest
+                </a>
+            </div>
+        </div>
+
+        <!-- Direitos autorais -->
+        <div class="copyright">&copy; 2025 Eterna Essência Joias - Todos os direitos reservados.</div>
+    </footer>
+
+    <!-- VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="../js/contato.js"></script>
+</body>
+
+</html>

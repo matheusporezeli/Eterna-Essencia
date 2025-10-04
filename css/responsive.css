@@ -1,0 +1,134 @@
+/*Celular*/
+@media (max-width: 480px) {
+
+    /*Variáveis gerais*/
+    :root {
+        --fonte-titulo: 4rem;
+        --font-subtitulo: 2.5rem;
+        --fonte-media: 1rem;
+    }
+
+    /*Header*/
+    header {
+        position: sticky;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .nav-list {
+        width: auto;
+        align-items: end;
+        text-align: right;
+    }
+
+    /*Banner Home*/
+    .banner h2 {
+        font-size: var(--font-subtitulo);
+    }
+
+    /*Produtos Home*/
+    .produtos {
+        padding: 40px 10px;
+    }
+
+    .titulo-produtos {
+        font-size: var(--fonte-titulo);
+    }
+
+    /*Main Login*/
+    .main-login {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 15px;
+        gap: 40px;
+    }
+
+    .login-input {
+        width: 100%;
+    }
+
+    .login {
+        width: 70%;
+    }
+
+    /*Footer*/
+
+    footer {
+        padding: 15px;
+    }
+
+    .footer-itens {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+    }
+
+    .titulo-footer {
+        width: 100%;
+    }
+
+    .footer-topico {
+        font-size: 0.75rem;
+    }
+
+    .topico-titulo {
+        padding: 15px 0 5px;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 600px) and (max-width: 992px) {
+
+    /*Header*/
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .nav-list {
+        width: 200px;
+        text-align: center;
+    }
+
+    /*Banner Home*/
+    .banner h2 {
+        font-size: var(--font-subtitulo);
+    }
+
+    /*Main Login*/
+    .main-login {
+        height: 80vw;
+    }
+
+    /*Contato*/
+    .contato {
+        width: 85vw;
+    }
+
+    .midia {
+        padding: 25px;
+    }
+
+    /*Footer*/
+    .footer-itens {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .copyright {
+        border-top: 3px solid #000;
+    }
+}
