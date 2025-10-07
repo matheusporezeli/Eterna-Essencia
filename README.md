@@ -20,7 +20,7 @@ Onde cada detalhe reflete a sua essência. Joias que eternizam momentos únicos.
 
 
 ## 👨‍🏫Descrição do projeto
-Primeira atividade prática do curso de Programação Web na Obra Social Dom Bosco.
+Primeira atividade prática do curso de Programação Web na Obra Social Dom Bosco.<br>
 Projeto feito para uma joalheria utilizando os conhecimentos de HTML e CSS adquiridos no curso e unindo a conhecimentos prévios de Javascript.
 
 ## 📝Requisitos
@@ -34,5 +34,6 @@ Projeto feito para uma joalheria utilizando os conhecimentos de HTML e CSS adqui
 - Login verificando se o email e senha cadastrados conferem e se estão corretos; ✅
 - Formulário de contato com armazenamento das informações no *localStorage*; ✅
 - Todos os campos do formulário e da parte de cadastro possuem validações com Javascript. ✅
+
 
 
