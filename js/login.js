@@ -40,7 +40,7 @@ form.addEventListener("submit", (e) => {
         textForm.textContent = "Login bem-sucedido!";
         //leva para a página index.html depois de 1 segundo
         setTimeout(() => {
-          window.location.href = "./index.html";
+          window.location.href = "../index.html";
         }, 3000);
       } else {
         textForm.textContent = "Email ou senha incorretos!";
