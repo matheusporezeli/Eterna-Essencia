@@ -24,14 +24,15 @@ Primeira atividade prática do curso de Programação Web na Obra Social Dom Bos
 Projeto feito para uma joalheria utilizando os conhecimentos de HTML e CSS adquiridos no curso e unindo a conhecimentos prévios de Javascript.
 
 ## 📝Requisitos
-- Página inicial que contenha header clicável com direcionamento para outras páginas;✅
-- Banner/carrossel que contenha informações sobre a marca;✅
-- Cards com as categorias dos produtos disponíveis na loja;✅
-- Rodapé com informação do site;✅
+- Página inicial que contenha header clicável com direcionamento para outras páginas; ✅
+- Banner/carrossel que contenha informações sobre a marca; ✅
+- Cards com as categorias dos produtos disponíveis na loja; ✅
+- Rodapé com informação do site; ✅
 - 
 ### Extra:
-- Página de cadastro funcional com cadastro usando *LocalStorage* para armazenar os dados;✅
-- Login verificando se o email e senha cadastrados conferem e se estão corretos;✅
-- Formulário de contato com armazenamento das informações no *localStorage*✅
-- Todos os campos do formulário e da parte de cadastro possuem validações com Javascript.
+- Página de cadastro funcional com cadastro usando *LocalStorage* para armazenar os dados; ✅
+- Login verificando se o email e senha cadastrados conferem e se estão corretos; ✅
+- Formulário de contato com armazenamento das informações no *localStorage*; ✅
+- Todos os campos do formulário e da parte de cadastro possuem validações com Javascript. ✅
+
 
