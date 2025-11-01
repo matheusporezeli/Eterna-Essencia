@@ -16,10 +16,11 @@ Onde cada detalhe reflete a sua essência. Joias que eternizam momentos únicos.
 | :sparkles: Nome        | **Joalheria Eterna Essência**
 | :label: Tecnologias |   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 | :rocket: URL         | [Eterna Essência](https://eternaessencia.vercel.app/)
-| 📷: QRcode         | <img width="100" height="100" alt="qrcode" src="https://github.com/user-attachments/assets/651d6aad-802d-46ed-958c-cacaba7b1288" />
+| 📷: QRcode         | <img width="100" height="100" alt="qrcode" src="https://github.com/user-attachments/assets/ec4a5084-5cb8-4d0d-a619-2b49a9adf6a4" />
 
 
-## 👨‍🏫Descrição do projeto
+## 👨‍🏫Descrição do projeto:
+
 Primeira atividade prática do curso de Programação Web na Obra Social Dom Bosco.<br>
 Projeto feito para uma joalheria utilizando os conhecimentos de HTML e CSS adquiridos no curso e unindo a conhecimentos prévios de Javascript.
 
@@ -34,6 +35,7 @@ Projeto feito para uma joalheria utilizando os conhecimentos de HTML e CSS adqui
 - Login verificando se o email e senha cadastrados conferem e se estão corretos; ✅
 - Formulário de contato com armazenamento das informações no *localStorage*; ✅
 - Todos os campos do formulário e da parte de cadastro possuem validações com Javascript. ✅
+
 
 
 
